@@ -99,11 +99,6 @@ const aditya = {
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=AVENGERSTHE2102&theme=discord&no-frame=true&no-bg=true&margin-w=5&column=6"/>
-</div>
 
 ---
 
@@ -117,7 +112,7 @@ const aditya = {
   <img alt="snake animation" src="https://github.com/AVENGERSTHE2102/AVENGERSTHE2102/blob/output/github-contribution-grid-snake-dark.svg?raw=true"/>
 </picture>
 
-> ⚠️ Snake won't show until you run the GitHub Action below (one-time setup)
+
 
 </div>
 
@@ -137,39 +132,3 @@ const aditya = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 </div>
 
----
-
-<details>
-<summary>⚙️ One-time setup: Enable Snake Animation</summary>
-
-Create `.github/workflows/snake.yml` in your profile repo with:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to **Actions tab → Run workflow manually** once. Done! 🐍
-
-</details>
