@@ -24,7 +24,7 @@ const aditya = {
   roles     : ["Web Dev Head – Colosseum 2026", "Freelance Full-Stack Dev"],
   building  : ["E-commerce on AWS 🛒", "Algo-rift ⚡", "PriceTracker 💰"],
   stack     : ["Java", "Next.js", "React", "TypeScript", "AWS Lambda", "n8n"],
-  achievements: ["🥇 ACM Web Dev Competition", "🥇 Domain Math Club Puzzles"],
+  achievements: ["🥇 Monad Blitz V3 Mumbai" ,  "🥇 ACM Web Dev Competition", "🥇 Domain Math Club Puzzles"],
   contact   : "sabnisa7@gmail.com",
 };
 ```
